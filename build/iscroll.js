@@ -18,7 +18,7 @@ var utils = (function () {
 			l = vendors.length;
 
 		for ( ; i < l; i++ ) {
-			transform = vendors[i] + 'transform';
+			transform = vendors[i] + 'ransform';
 			if ( transform in _elementStyle ) return vendors[i].substr(0, vendors[i].length-1);
 		}
 
